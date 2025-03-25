@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c2 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#c3{
+  margin-top: 50px;
+}
+
+#c4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 20px;
+}
+
+.teste{
+  background-color: #5898D4;
+}
+
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  z-index: 1;
+  gap: 15px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.vitoria{
+
+  color: rgb(114, 85, 13);
+}
+
+.derrota{
+  color: rgb(114, 13, 13);
+}
+
+.disabled {
+  pointer-events: none;  /* Impede cliques */
+  opacity: 0.3;         /* Deixa visualmente mais apagado */
+}
+
+.div-parametros > div{
+  height: 93px;
+}
+
+.div-parametros div:nth-child(3) > div:nth-child(2){
+  padding-top: 16px;
+  gap: 0;
+}

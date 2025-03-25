@@ -1,0 +1,7 @@
+
+-----------------------  Intruções de Execução -----------------------
+
+1 - Após baixar o projeto e descompactar, acessar a pasta 'Projeto Final' pelo terminal.
+2 - Instalar NiceGUI com a instrução: pip install nicegui.
+3 - No terminal dentro da pasta 'Projeto FInal', executar o comando: python campo_minado.py
+4 - Ao executar, em alguns segundos o nicegui vai abrir seu navegador padrão com o jogo em execução.
